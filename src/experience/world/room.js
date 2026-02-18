@@ -27,7 +27,7 @@ export default class Room {
     this.actualRoom.children.forEach((child) => {
       child.castShadow = true;
       child.receiveShadow = true;
-      child.scale.set(0,0,0);
+      // child.scale.set(0,0,0);
 
       // intro cube
       if (child.name==="load_cube"){
