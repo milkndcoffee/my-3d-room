@@ -58,7 +58,6 @@ export default class Controls {
             trigger: ".first-section.section.left",
             start: "top bottom",
             end: "145%",
-            markers: true,
             scrub: true,
             invalidateOnRefresh: true,
           },
